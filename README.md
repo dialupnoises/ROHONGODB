@@ -2,7 +2,7 @@
 
 ROHONGODB is a web-scale blazing fast key-value store for cool people like Rohan. It has a bunch of awesome cool features for cool developers.
 
-ROHONGODB stores all data in a single JSON file. Of course, since this is WEB-SCALE, the JSON file is gzipped. The entire database is stored on every write, because ROHONGODB is web-scale, and web-scale means no data loss except when it's ok. 
+ROHONGODB stores all data in a single JSON file. Of course, since this is WEB-SCALE, the JSON file is gzipped. The entire database is stored on every write, because ROHONGODB is web-scale, and web-scale means no data loss except when it's ok. The saving operation is synchronous, of course, because this is web-scale.
 
 ROHONGODB features an HTTP API, because HTTP is great and cool and everybody loves it. It's easy and simple to use.
 
