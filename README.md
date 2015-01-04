@@ -19,6 +19,7 @@ To set a value:
 This will return the following JSON data:
 ```
 {result: true}
+```
 Or maybe:
 ```
 {result: 'yes'}
